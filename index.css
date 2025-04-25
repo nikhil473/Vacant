@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-text:"#333";
+    --secondary-text:"# ";
+    --background:#fff;
+}
+/* reset css */
+a{
+    text-decoration: none;
+    display: block;
+    color: black;
+
+}
+li{
+    text-decoration: none;
+}
+/* common css */
+.container{
+    max-width: 1240px;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+.grid{
+    display: grid;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.place-items-center{
+    place-items: center;
+}
+.gap-8{
+    gap: 8px;
+}
+.hidden{
+    display: none;
+}
+.block{
+    display: block;
+}
+.cta,.primary-input{
+    border :1px solid var(--primary-text);
+    border-radius: 20px;
+}
+
+
+/* main css */

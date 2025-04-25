@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.nav_position {
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+
+.navbar {
+    background: rgb(255, 255, 255);
+    align-items: baseline;
+}
+
+.nav_block {
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+}
+
+.F_logo {
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 10px;
+    color: rgba(31, 47, 199, 0.993);
+}
+
+.nav_search {
+    width: 340px;
+    height: 50px;
+    border-radius: 60px;
+    background: #f2f7ff;
+    border: 1px solid #f2f7ff;
+    position: relative;
+}
+
+.m_item {
+    padding: 20px;
+    color: #808080;
+    border-left: 4px solid transparent;
+
+}
+
+.m_item:active {
+    color: blue;
+}
+
+.b_menu:active {
+    color: blue;
+}
+
+.s_input {
+    border: none;
+    background: transparent;
+    padding: 15px 20px;
+    margin-right: 50px;
+    font-size: 16px;
+    outline: none;
+    color: black;
+}
+
+.fa-magnifying-glass {
+    margin-top: 10px;
+    border: 1px solid rgb(252, 249, 249);
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    color: #3648ea;
+}
+
+.btn {
+    padding: 10px 30px;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+
+.btn1 {
+    background: rgba(9, 9, 245, 0.842);
+    color: white;
+    box-shadow: 2px 4px 40px rgba(54, 72, 234, 0.2);
+}
+
+.btn2 {
+    border: 2px solid #1d4354;
+    color: #1d4354;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    grid-template-columns: auto auto auto;
+    display: grid;
+}
+
+.sidebar1 {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border-radius: 0px 25px 25px 0px;
+    gap: 40px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.container1 {
+    background: #9792927a;
+    padding: 20px 50px;
+    height: calc(100vh - 68px);
+    overflow: auto;
+}
+
+.menu {
+    display: none;
+    font-size: 15px;
+}
+
+.box {
+    display: flex;
+    gap: 20px;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    width: 100%;
+    justify-content: space-around;
+    background: white;
+}
+
+.b_menu {
+    color: mediumseagreen;
+    padding: 26px 0;
+    border-bottom: 4px solid transparent;
+
+
+}
+
+.filter {
+    display: block;
+    color: rgba(82, 184, 136, 0.788);
+}
+
+.b_logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 3px;
+    border: 1px solid blue;
+
+}
+
+.id_name,
+.lm_heading {
+    font-size: small;
+    color: rgba(0, 0, 0, 0.801);
+
+}
+
+.para {
+    border-top: 1px solid #e1e9f1;
+    padding: 16px 10px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.801);
+
+}
+
+
+.c_img {
+    width: 100%;
+}
+
+.lcs_b {
+    display: inline-flex
+}
+
+.lcs_logo,
+.lcs_l,
+.cs_no,
+.lcs_btn,
+.learn_more {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    align-items: center;
+}
+
+.lcs_logo {
+    border-bottom: 1px solid #e1e9f1;
+    position: relative;
+}
+
+.fa-solid {
+    position: absolute;
+}
+
+.fa-thumbs-up {
+    left: 10px;
+    z-index: 2;
+}
+
+.fa-heart {
+    left: 20px;
+    z-index: 1;
+}
+
+.fa-face-grin-hearts {
+    left: 30px;
+    z-index: 0;
+}
+
+.lm_btn {
+    border: 1px solid rgb(255, 252, 252);
+    padding: 5px;
+    border-radius: 6px;
+    background-color: #29292934;
+}
+
+.lm_para,
+.lm_para1 {
+    color: rgba(24, 25, 26, 0.548);
+    padding: 10px 0;
+}
+
+.lm_para {
+    font-size: 10px;
+}
+
+.lm_para1 {
+    font-size: 10px;
+}
+
+.card {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid rgb(250, 247, 247);
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+
+
+.b_logo_dot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dot {
+    font-size: 40px;
+    color: #8d8888d7;
+    padding-bottom: 25px;
+    padding-right: 15px;
+}
+
+.cs_no,
+.like_no {
+    color: #8d8888d7;
+    margin-left: 40px;
+}
+
+.lcs_btn {
+    position: relative;
+}
+
+.lcs_bt {
+    margin-left: 20px;
+}
+
+.slidbar2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+    height: calc(100vh - 68px);
+    overflow: auto;
+}
+
+.filter_clear {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(161, 161, 161);
+    padding: 10px;
+}
+
+.clr_btn {
+    padding: 5px;
+    border: none;
+    color: #3648ea;
+}
+
+.slidbar2_itens {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.sb_lable {
+    font-size: large;
+    color: rgba(51, 48, 48, 0.781);
+    padding: 10px;
+
+}
+
+.sb_input,
+.sb_select,
+.sb_input2 {
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.678);
+}
+
+.sb_2input {
+    display: flex;
+}
+
+.sb_input2 {
+    font-size: 13px;
+    padding-left: 10px;
+    width: 50%;
+}
+
+.apply_btn {
+    width: 100%;
+    padding: 5px;
+    background-color: #606de2;
+    border-radius: 15px;
+    color: #ffffff;
+    border: 1px solid #606de2;
+}
+
+.apply_btn:active {
+    background-color: rgb(34, 219, 34);
+}
+
+@media only screen and (max-width:1919px) {
+    div.slidbar2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1007px) {
+
+    div.nav_search,
+    div.sidebar1 {
+        display: none;
+    }
+    div.box {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .menu {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 512px) {
+
+    .cs_no,
+    .para {
+        font-size: 2vw;
+    }
+
+    .para {
+        font-size: 2.2vw;
+        padding: 3px 5px;
+    }
+
+    .user_btn {
+        display: none;
+    }
+
+    .F_logo {
+        margin: auto;
+
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .bar {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .container1 {
+        padding: 10px;
+    }
+}
